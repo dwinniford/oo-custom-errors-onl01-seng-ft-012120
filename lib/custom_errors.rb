@@ -10,6 +10,8 @@ class Person
     person.partner = self
   end
 
+
+
 end
 
 beyonce = Person.new("Beyonce")
@@ -19,3 +21,4 @@ puts beyonce.name
 
 
 
+# ruby lib/custom_errors.rb
