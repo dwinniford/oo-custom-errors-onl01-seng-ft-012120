@@ -13,7 +13,6 @@ class Person
      begin
         raise PartnerError
       rescue PartnerError => error
-      binding.pry 
           puts error.message
       end
     else
