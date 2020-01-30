@@ -1,3 +1,5 @@
+require 'pry'
+
 class Person
   attr_accessor :partner, :name
 
@@ -11,6 +13,7 @@ class Person
      begin
         raise PartnerError
       rescue PartnerError => error
+      binding.pry 
           puts error.message
       end
     else
